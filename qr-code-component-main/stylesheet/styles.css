@@ -1,0 +1,16 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    margin: 20px auto;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 0 0 20px 0 rgb(189, 188, 188);
+}
+
+.container img {
+    border-radius: 4%;
+}
