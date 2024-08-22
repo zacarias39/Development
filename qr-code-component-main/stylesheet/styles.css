@@ -28,9 +28,11 @@ img {
 .container {
     background-color:  hsl(0, 0%, 100%);
     margin: 100px auto;
-    width: 17%;
+    width: 230px;
     height: 375px;
     text-align: center;
     border-radius: 5%;
     box-shadow: 0 0 5px rgb(143, 142, 142);
+    min-width: 100px;
+    max-width: 230px;
 }
