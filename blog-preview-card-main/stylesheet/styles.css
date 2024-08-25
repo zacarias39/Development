@@ -1,0 +1,87 @@
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color:  hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+
+}
+
+.card {
+    background-color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+    width: 30vw;
+    min-width: 280px;
+    height: 41vw;
+    min-height: 250px;
+    margin: 70px auto;
+    border-radius: 5%;
+    box-shadow: 10px 10px 0 black;
+    border: 1.5px solid black; 
+}
+
+.text {
+    text-align: left;
+    margin: -25px 5%;
+    padding:  30px 10px;
+}
+
+h2 {
+    margin: -5px 0;;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.defining {
+    color: hsl(0, 0%, 42%);
+    
+}
+
+.date {
+    color: hsl(0, 0%, 7%);
+    padding: 10px 0;
+
+}
+
+.card-image {
+    width: 85%;
+    margin: 25px auto;
+    border-radius: 5%;
+}
+
+.bt {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.profile {
+    text-align: left;
+    padding:  0 30px;
+
+}
+
+.profile img{
+    width: 40px;
+   
+}
+
+.profile label, .profile img{
+    vertical-align: middle;
+   
+}
+
+.profile label {
+    font-weight: bold;
+    color: hsl(0, 0%, 7%);;
+}
+
+
+
+
