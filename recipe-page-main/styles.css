@@ -1,0 +1,343 @@
+<<<<<<< HEAD
+body { 
+    background-color: hsl(30, 54%, 90%);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    width: 100%; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-wrap: wrap;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    width: 40%;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 20px;   
+    
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 42px;
+    color: hsl(24, 5%, 18%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 27px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+}
+
+.preparation-time {
+   margin-left: 40px;
+}
+
+ul li {
+   list-style-type: none;
+   margin-left: -32px;
+}
+
+.ingredients {
+    margin-bottom: 15px;
+}
+
+.ingredients ul li::before{
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul li{
+    margin-left: -32px;
+}
+
+.instructions {
+    margin-bottom: 15px;
+}
+
+.instructions ol li{
+    margin-left: -15px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+.hr {
+    border-bottom: 0.1px solid hsl(30, 18%, 87%);
+}
+
+ul li::before {
+   content: "•";
+   position: relative;
+   color: hsl(332, 51%, 32%);
+   font-size: 1.5rem;
+   margin-right: 30px;
+   top: 2.5px;
+}
+
+.container img {
+    border-radius: 11px;
+}
+
+ol {
+margin-left: 15px;
+}
+
+ol li {
+    list-style-type: none; /* Remove default numbering */
+    counter-increment: item;
+    position: relative;
+    margin-left: 20px; /* Adjusts the space between the number and text */
+}
+
+ol li::before {
+    content: counter(item) ". "; /* Custom numbering */
+    position: absolute;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    left: -30px; /* Adjust this value to control spacing */
+}
+
+table tr td{
+    padding: 12px 12px 12px 30px;
+    width: 50%;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bold {
+    color:  hsl(14, 45%, 36%);
+    font-weight: bold; 
+}
+
+table tr td:not(.no-border) {
+    border-bottom: 0.1px solid hsl(30, 18%, 87%);
+ }
+
+.border {
+    border-bottom: 0.1px solid hsl(30, 18%, 87%);
+}
+
+@media (min-width: 76vh) and (max-width: 900px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    body {
+        background-color: hsl(0, 0%, 100%);
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .container {
+        background-color: hsl(0, 0%, 100%);
+        font-size: 16px;
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        padding: 0 40px;              
+    }
+
+    .container img {
+        position: relative;
+        margin: 0 auto;
+        width: 130%;
+        height: auto;
+        padding: 0;  
+        margin-left: -25px;   
+        border-radius: 0%;   
+    }
+
+    
+
+}
+=======
+body { 
+    background-color: hsl(30, 54%, 90%);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    width: 100%; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-wrap: wrap;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    width: 60%;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 20px;   
+    
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 42px;
+    color: hsl(24, 5%, 18%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 27px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+}
+
+.preparation-time {
+   margin-left: 40px;
+}
+
+ul li {
+   list-style-type: none;
+   margin-left: -32px;
+}
+
+.ingredients {
+    margin-bottom: 15px;
+}
+
+.ingredients ul li::before{
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul li{
+    margin-left: -32px;
+}
+
+.instructions {
+    margin-bottom: 15px;
+}
+
+.instructions ol li{
+    margin-left: -15px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+.hr {
+    border-bottom: 0.1px solid hsl(30, 18%, 87%);
+}
+
+ul li::before {
+   content: "•";
+   position: relative;
+   color: hsl(332, 51%, 32%);
+   font-size: 1.5rem;
+   margin-right: 30px;
+   top: 2.5px;
+}
+
+.container img {
+    border-radius: 11px;
+}
+
+ol {
+margin-left: 15px;
+}
+
+ol li {
+    list-style-type: none; /* Remove default numbering */
+    counter-increment: item;
+    position: relative;
+    margin-left: 20px; /* Adjusts the space between the number and text */
+}
+
+ol li::before {
+    content: counter(item) ". "; /* Custom numbering */
+    position: absolute;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    left: -30px; /* Adjust this value to control spacing */
+}
+
+table tr td{
+    padding: 12px 12px 12px 30px;
+    width: 50%;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bold {
+    color:  hsl(14, 45%, 36%);
+    font-weight: bold; 
+}
+
+table tr td:not(.no-border) {
+    border-bottom: 0.1px solid hsl(30, 18%, 87%);
+ }
+
+.border {
+    border-bottom: 0.1px solid hsl(30, 18%, 87%);
+}
+
+@media (min-width: 76vh) and (max-width: 900px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    body {
+        background-color: hsl(0, 0%, 100%);
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .container {
+        background-color: hsl(0, 0%, 100%);
+        font-size: 16px;
+        width: 90%;
+        height: 100%;
+        margin: 0;
+        padding: 0 40px;              
+    }
+
+    .container img {
+        position: relative;
+        margin: 0 auto;
+        width: 130%;
+        height: auto;
+        padding: 0;  
+        margin-left: -25px;   
+        border-radius: 0%;   
+    }
+
+    
+
+}
+>>>>>>> d873d62 (final)
